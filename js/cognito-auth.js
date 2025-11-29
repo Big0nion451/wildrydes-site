@@ -98,11 +98,6 @@ var WildRydes = window.WildRydes || {};
             Username: toUsername(email),
             Pool: userPool
         });
-    }
-
-    function toUsername(email) {
-        return email.replace('@', '-at-');
-    }
 
     /*
      *  Event Handlers
@@ -171,4 +166,5 @@ var WildRydes = window.WildRydes || {};
         );
     }
 }(jQuery));
+
 
