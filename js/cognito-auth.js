@@ -98,6 +98,7 @@ var WildRydes = window.WildRydes || {};
             Username: email,
             Pool: userPool
         });
+    }
 
     /*
      *  Event Handlers
@@ -166,6 +167,7 @@ var WildRydes = window.WildRydes || {};
         );
     }
 }(jQuery));
+
 
 
 
